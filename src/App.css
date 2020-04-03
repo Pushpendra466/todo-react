@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 50px;
+    transform: skewY(0deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick, -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick, -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick, -30px 20px 40px dimgrey;
+}
+
+p {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 25px;
+    transform: skewY(0deg);
+    letter-spacing: 2px;
+    word-spacing: -5px;
+    color: black;
+    text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick, -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick, -6px -6px 0 firebrick, -30px 20px 40px dimgrey;
+}
+
+#inp {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    column-count: 2;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    border: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+    color: rgb(25, 0, 255);
+    /* background: #7FFFD4; */
+    background: tomato;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick, -3px -3px 0 firebrick, -4px -4px 0 firebrick;
+}
+
+#del {
+    float: right;
+    background: tomato;
+    border: 2px tomato;
+    text-align: center;
+    font-size: 25px;
+}
+
+#userinput,
+#enter {
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background: tomato;
+    color: red;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick;
+}
